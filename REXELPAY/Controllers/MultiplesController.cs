@@ -15,10 +15,9 @@ namespace REXELPAY.Controllers
     {
         private readonly IMultiplesRepository _multiplesRepository;
 
-        public MultiplesController(IMultiplesRepository multiplesRepository, ILogger<MultiplesController> logger)
+        public MultiplesController(IMultiplesRepository multiplesRepository)
         {
             _multiplesRepository = multiplesRepository;
-
         }
 
         [HttpPost("findMultiples")]

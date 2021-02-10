@@ -35,5 +35,6 @@ namespace REXELPAY.Tests.RepositoryTests
             Assert.IsType<Task<GenericResponseModel>>(actualResult);
             Assert.True(actualResult.IsCompletedSuccessfully);
         }
+
     }
 }

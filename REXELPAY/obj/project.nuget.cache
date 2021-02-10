@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tZW1AXyK+EYl19gq1LVjTQjBAvW4qblQMuoZou8b44AHcyPj6UY3fnUwOqTrlSLhw/kPuqaTnixFVpJ+1AMdiQ==",
+  "dgSpecHash": "Kq8VykebXVyu+FVTC1EIEk8DNiRKI0HEC0YkYaZ1L8sH7namf5VIqJ/Be+E9qrXjCk85rTtxUtaS4QwoFcdLLA==",
   "success": true,
-  "projectFilePath": "C:\\ASPNETApplications\\REXELPAY\\REXELPAY\\REXELPAY.csproj",
+  "projectFilePath": "C:\\ASPNETApplications\\REXELPAY_BACKEND_DEV_CHALLENGE\\REXELPAY\\REXELPAY.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TELNET-SP\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\2.0.4\\microsoft.dotnet.platformabstractions.2.0.4.nupkg.sha512",
     "C:\\Users\\TELNET-SP\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",

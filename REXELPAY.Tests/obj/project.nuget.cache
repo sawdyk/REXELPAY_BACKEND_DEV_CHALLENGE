@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0JYMiWdwApluox8gMAZb0m1jYz5Qul/UvbIG0pl9YU3Fp/aIkN84z8fljEzMuxGNTI3Ob8u7BLYPZdSRhIjw+g==",
+  "dgSpecHash": "2CUakAFesTnSmHIKhL7NfmWA+8JvAu5p3I2a8IwBzbNVqNrgtNcFbyQTnyLh1Hp/tsdP8pwI3OxQ3JgXVkYlKQ==",
   "success": true,
-  "projectFilePath": "C:\\ASPNETApplications\\REXELPAY\\REXELPAY.Tests\\REXELPAY.Tests.csproj",
+  "projectFilePath": "C:\\ASPNETApplications\\REXELPAY_BACKEND_DEV_CHALLENGE\\REXELPAY.Tests\\REXELPAY.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TELNET-SP\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\TELNET-SP\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",

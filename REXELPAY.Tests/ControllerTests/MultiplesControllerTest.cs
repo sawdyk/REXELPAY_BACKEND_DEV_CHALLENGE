@@ -18,7 +18,7 @@ namespace REXELPAY.Tests.ControllerTests
     public class MultiplesControllerTest
     {
         [Fact]
-        public void TestMultipleController()
+        public void ReturnsOkRequest_ValidModel_ValidResponse_MultipleController()
         {
             //Arrange  
             MultipleRequestModel requestModel = new MultipleRequestModel
@@ -27,16 +27,49 @@ namespace REXELPAY.Tests.ControllerTests
             };
 
             //Act
-            Mock<ILogger<MultiplesController>> mockObjectLog = new Mock<ILogger<MultiplesController>>();
             Mock<IMultiplesRepository> mockObjectChecker = new Mock<IMultiplesRepository>();
 
-            MultiplesController controller = new MultiplesController(mockObjectChecker.Object, mockObjectLog.Object);
+            MultiplesController controller = new MultiplesController(mockObjectChecker.Object);
             var actualResult = controller.findMultiplesAsync(requestModel);
 
             //Assert  
             Assert.NotNull(actualResult);
             Assert.IsType<Task<IActionResult>>(actualResult);
             Assert.True(actualResult.IsCompletedSuccessfully);
+        }
+
+        [Fact]
+        public async Task ReturnsOkRequest_ValidModel_MultipleController()
+        {
+            //Arrange  
+            MultipleRequestModel requestModel = new MultipleRequestModel
+            {
+                Number = 20
+            };
+            //Arrange and Act
+            Mock<IMultiplesRepository> mockObjectChecker = new Mock<IMultiplesRepository>();
+            MultiplesController controller = new MultiplesController(mockObjectChecker.Object);
+
+            // Act
+            var result = await controller.findMultiplesAsync(requestModel);
+
+            // Assert
+            Assert.IsType<OkObjectResult>(result);
+        }
+
+        [Fact]
+        public async Task ReturnsBadRequest_InvalidModel_MultipleController()
+        {
+            //Arrange and Act
+            Mock<IMultiplesRepository> mockObjectChecker = new Mock<IMultiplesRepository>();
+            MultiplesController controller = new MultiplesController(mockObjectChecker.Object);
+            controller.ModelState.AddModelError("error", "Invalid");
+
+            // Act
+            var result = await controller.findMultiplesAsync(null);
+
+            // Assert
+            Assert.IsType<BadRequestResult>(result);
         }
     }
 }

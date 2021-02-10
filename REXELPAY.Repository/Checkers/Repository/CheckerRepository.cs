@@ -39,7 +39,9 @@ namespace REXELPAY.Repository.Checkers.Repository
             }
             catch (Exception exMessage)
             {
-                _logger.LogInformation(string.Format("This Error: {0}, Occurred at {1}; StackTrace: {2}", exMessage.Message, exMessage.StackTrace, exMessage.Source));
+                //Logs Information
+                var logInfo = new Logger(_logger);
+                logInfo.logError(exMessage);
                 throw exMessage;
             }
         }

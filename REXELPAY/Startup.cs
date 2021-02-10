@@ -35,14 +35,15 @@ namespace REXELPAY
             services.AddMvc().AddJsonOptions(options =>
             {
                 options.JsonSerializerOptions.IgnoreNullValues = true;
-
             });
 
-            //------------------------------SERVICES---------------------------------------------------------
+            //------------------------------SERVICES-------------------------------------------------------
 
             services.AddTransient<IMultiplesRepository, MultiplesRepository>();
             services.AddTransient<ICheckerRepository, CheckerRepository>();
 
+
+            //------------------------------SWAGGER--------------------------------------------------------
 
             //Get the swagger value options
             var swaggerOpt = Configuration.GetSection("SwaggerOptions").Get<SwaggerOptions>();
@@ -65,6 +66,7 @@ namespace REXELPAY
                 app.UseDeveloperExceptionPage();
             }
 
+            // Swagger Middleware
             app.UseSwagger();
             // specifying the Swagger JSON endpoint.  
             app.UseSwaggerUI(c =>

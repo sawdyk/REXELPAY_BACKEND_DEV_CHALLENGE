@@ -49,7 +49,6 @@ namespace REXELPAY.Repository.Multiples.Repository
                             Number = obj.Number,
                             Word = "Fizz",
                             Remark = "Multiples Of Three"
-
                         }
                     };
                 }
@@ -76,13 +75,16 @@ namespace REXELPAY.Repository.Multiples.Repository
                     {
                         Number = obj.Number,
                         Remark = "Not A Multiple Of Three or Five"
-
                     }
                 };
             }
             catch (Exception exMessage)
             {
-                _logger.LogInformation(string.Format("This Error: {0}, Occurred at {1}; Source: {2}", exMessage.Message, exMessage.StackTrace, exMessage.Source));
+                //Logs Information
+                var logInfo = new Logger(_logger);
+                logInfo.logError(exMessage);
+
+                //Returns Generic reposne to users
                 return new GenericResponseModel { 
                     Code = (int)System.Net.HttpStatusCode.InternalServerError, 
                     Message = "An Error Occurred" 

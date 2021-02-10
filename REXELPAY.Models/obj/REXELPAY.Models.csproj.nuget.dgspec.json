@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ASPNETApplications\\REXELPAY\\REXELPAY.Models\\REXELPAY.Models.csproj": {}
+    "C:\\ASPNETApplications\\REXELPAY_BACKEND_DEV_CHALLENGE\\REXELPAY.Models\\REXELPAY.Models.csproj": {}
   },
   "projects": {
-    "C:\\ASPNETApplications\\REXELPAY\\REXELPAY.Helpers\\REXELPAY.Helpers.csproj": {
+    "C:\\ASPNETApplications\\REXELPAY_BACKEND_DEV_CHALLENGE\\REXELPAY.Helpers\\REXELPAY.Helpers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ASPNETApplications\\REXELPAY\\REXELPAY.Helpers\\REXELPAY.Helpers.csproj",
+        "projectUniqueName": "C:\\ASPNETApplications\\REXELPAY_BACKEND_DEV_CHALLENGE\\REXELPAY.Helpers\\REXELPAY.Helpers.csproj",
         "projectName": "REXELPAY.Helpers",
-        "projectPath": "C:\\ASPNETApplications\\REXELPAY\\REXELPAY.Helpers\\REXELPAY.Helpers.csproj",
+        "projectPath": "C:\\ASPNETApplications\\REXELPAY_BACKEND_DEV_CHALLENGE\\REXELPAY.Helpers\\REXELPAY.Helpers.csproj",
         "packagesPath": "C:\\Users\\TELNET-SP\\.nuget\\packages\\",
-        "outputPath": "C:\\ASPNETApplications\\REXELPAY\\REXELPAY.Helpers\\obj\\",
+        "outputPath": "C:\\ASPNETApplications\\REXELPAY_BACKEND_DEV_CHALLENGE\\REXELPAY.Helpers\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -42,6 +42,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -75,14 +81,14 @@
         }
       }
     },
-    "C:\\ASPNETApplications\\REXELPAY\\REXELPAY.Models\\REXELPAY.Models.csproj": {
+    "C:\\ASPNETApplications\\REXELPAY_BACKEND_DEV_CHALLENGE\\REXELPAY.Models\\REXELPAY.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ASPNETApplications\\REXELPAY\\REXELPAY.Models\\REXELPAY.Models.csproj",
+        "projectUniqueName": "C:\\ASPNETApplications\\REXELPAY_BACKEND_DEV_CHALLENGE\\REXELPAY.Models\\REXELPAY.Models.csproj",
         "projectName": "REXELPAY.Models",
-        "projectPath": "C:\\ASPNETApplications\\REXELPAY\\REXELPAY.Models\\REXELPAY.Models.csproj",
+        "projectPath": "C:\\ASPNETApplications\\REXELPAY_BACKEND_DEV_CHALLENGE\\REXELPAY.Models\\REXELPAY.Models.csproj",
         "packagesPath": "C:\\Users\\TELNET-SP\\.nuget\\packages\\",
-        "outputPath": "C:\\ASPNETApplications\\REXELPAY\\REXELPAY.Models\\obj\\",
+        "outputPath": "C:\\ASPNETApplications\\REXELPAY_BACKEND_DEV_CHALLENGE\\REXELPAY.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -102,8 +108,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\ASPNETApplications\\REXELPAY\\REXELPAY.Helpers\\REXELPAY.Helpers.csproj": {
-                "projectPath": "C:\\ASPNETApplications\\REXELPAY\\REXELPAY.Helpers\\REXELPAY.Helpers.csproj"
+              "C:\\ASPNETApplications\\REXELPAY_BACKEND_DEV_CHALLENGE\\REXELPAY.Helpers\\REXELPAY.Helpers.csproj": {
+                "projectPath": "C:\\ASPNETApplications\\REXELPAY_BACKEND_DEV_CHALLENGE\\REXELPAY.Helpers\\REXELPAY.Helpers.csproj"
               }
             }
           }

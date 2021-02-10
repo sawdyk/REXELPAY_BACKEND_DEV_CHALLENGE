@@ -10,3 +10,15 @@ C:\ASPNETApplications\REXELPAY\REXELPAY.Models\obj\Debug\netcoreapp3.1\REXELPAY.
 C:\ASPNETApplications\REXELPAY\REXELPAY.Models\bin\Debug\netcoreapp3.1\REXELPAY.Helpers.dll
 C:\ASPNETApplications\REXELPAY\REXELPAY.Models\bin\Debug\netcoreapp3.1\REXELPAY.Helpers.pdb
 C:\ASPNETApplications\REXELPAY\REXELPAY.Models\obj\Debug\netcoreapp3.1\REXELPAY.Models.csproj.CopyComplete
+C:\ASPNETApplications\REXELPAY_BACKEND_DEV_CHALLENGE\REXELPAY.Models\bin\Debug\netcoreapp3.1\REXELPAY.Models.deps.json
+C:\ASPNETApplications\REXELPAY_BACKEND_DEV_CHALLENGE\REXELPAY.Models\bin\Debug\netcoreapp3.1\REXELPAY.Models.dll
+C:\ASPNETApplications\REXELPAY_BACKEND_DEV_CHALLENGE\REXELPAY.Models\bin\Debug\netcoreapp3.1\REXELPAY.Models.pdb
+C:\ASPNETApplications\REXELPAY_BACKEND_DEV_CHALLENGE\REXELPAY.Models\bin\Debug\netcoreapp3.1\REXELPAY.Helpers.dll
+C:\ASPNETApplications\REXELPAY_BACKEND_DEV_CHALLENGE\REXELPAY.Models\bin\Debug\netcoreapp3.1\REXELPAY.Helpers.pdb
+C:\ASPNETApplications\REXELPAY_BACKEND_DEV_CHALLENGE\REXELPAY.Models\obj\Debug\netcoreapp3.1\REXELPAY.Models.csprojAssemblyReference.cache
+C:\ASPNETApplications\REXELPAY_BACKEND_DEV_CHALLENGE\REXELPAY.Models\obj\Debug\netcoreapp3.1\REXELPAY.Models.AssemblyInfoInputs.cache
+C:\ASPNETApplications\REXELPAY_BACKEND_DEV_CHALLENGE\REXELPAY.Models\obj\Debug\netcoreapp3.1\REXELPAY.Models.AssemblyInfo.cs
+C:\ASPNETApplications\REXELPAY_BACKEND_DEV_CHALLENGE\REXELPAY.Models\obj\Debug\netcoreapp3.1\REXELPAY.Models.csproj.CoreCompileInputs.cache
+C:\ASPNETApplications\REXELPAY_BACKEND_DEV_CHALLENGE\REXELPAY.Models\obj\Debug\netcoreapp3.1\REXELPAY.Models.csproj.CopyComplete
+C:\ASPNETApplications\REXELPAY_BACKEND_DEV_CHALLENGE\REXELPAY.Models\obj\Debug\netcoreapp3.1\REXELPAY.Models.dll
+C:\ASPNETApplications\REXELPAY_BACKEND_DEV_CHALLENGE\REXELPAY.Models\obj\Debug\netcoreapp3.1\REXELPAY.Models.pdb

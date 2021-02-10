@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "agFltEEH2ml2WQGS1uN7xlijcXRjjirEnYjpF49FJJ2OPXaOcA0v9zodqGeRl9fGeODZilq4y0kC7qLIF4rTtg==",
+  "dgSpecHash": "reVJan5CsF9GMzgK9c54hf1z95eYc+jHA4zQa3XzUXsM5I2vx2XENBVlVUoD/iqFVKVHEDp72x4xTebzjc/P4Q==",
   "success": true,
-  "projectFilePath": "C:\\ASPNETApplications\\REXELPAY\\REXELPAY.Models\\REXELPAY.Models.csproj",
+  "projectFilePath": "C:\\ASPNETApplications\\REXELPAY_BACKEND_DEV_CHALLENGE\\REXELPAY.Models\\REXELPAY.Models.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\TELNET-SP\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\TELNET-SP\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\TELNET-SP\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
     "C:\\Users\\TELNET-SP\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",

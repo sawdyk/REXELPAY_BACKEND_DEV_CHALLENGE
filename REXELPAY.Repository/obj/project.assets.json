@@ -23,6 +23,9 @@
       "REXELPAY.Helpers/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "5.0.0"
+        },
         "compile": {
           "bin/placeholder/REXELPAY.Helpers.dll": {}
         },
@@ -123,11 +126,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ASPNETApplications\\REXELPAY\\REXELPAY.Repository\\REXELPAY.Repository.csproj",
+      "projectUniqueName": "C:\\ASPNETApplications\\REXELPAY_BACKEND_DEV_CHALLENGE\\REXELPAY.Repository\\REXELPAY.Repository.csproj",
       "projectName": "REXELPAY.Repository",
-      "projectPath": "C:\\ASPNETApplications\\REXELPAY\\REXELPAY.Repository\\REXELPAY.Repository.csproj",
+      "projectPath": "C:\\ASPNETApplications\\REXELPAY_BACKEND_DEV_CHALLENGE\\REXELPAY.Repository\\REXELPAY.Repository.csproj",
       "packagesPath": "C:\\Users\\TELNET-SP\\.nuget\\packages\\",
-      "outputPath": "C:\\ASPNETApplications\\REXELPAY\\REXELPAY.Repository\\obj\\",
+      "outputPath": "C:\\ASPNETApplications\\REXELPAY_BACKEND_DEV_CHALLENGE\\REXELPAY.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -147,11 +150,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\ASPNETApplications\\REXELPAY\\REXELPAY.Helpers\\REXELPAY.Helpers.csproj": {
-              "projectPath": "C:\\ASPNETApplications\\REXELPAY\\REXELPAY.Helpers\\REXELPAY.Helpers.csproj"
+            "C:\\ASPNETApplications\\REXELPAY_BACKEND_DEV_CHALLENGE\\REXELPAY.Helpers\\REXELPAY.Helpers.csproj": {
+              "projectPath": "C:\\ASPNETApplications\\REXELPAY_BACKEND_DEV_CHALLENGE\\REXELPAY.Helpers\\REXELPAY.Helpers.csproj"
             },
-            "C:\\ASPNETApplications\\REXELPAY\\REXELPAY.Models\\REXELPAY.Models.csproj": {
-              "projectPath": "C:\\ASPNETApplications\\REXELPAY\\REXELPAY.Models\\REXELPAY.Models.csproj"
+            "C:\\ASPNETApplications\\REXELPAY_BACKEND_DEV_CHALLENGE\\REXELPAY.Models\\REXELPAY.Models.csproj": {
+              "projectPath": "C:\\ASPNETApplications\\REXELPAY_BACKEND_DEV_CHALLENGE\\REXELPAY.Models\\REXELPAY.Models.csproj"
             }
           }
         }

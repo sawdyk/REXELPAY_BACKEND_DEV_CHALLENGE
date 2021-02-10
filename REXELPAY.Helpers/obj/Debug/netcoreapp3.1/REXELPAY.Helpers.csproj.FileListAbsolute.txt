@@ -7,3 +7,12 @@ C:\ASPNETApplications\REXELPAY\REXELPAY.Helpers\obj\Debug\netcoreapp3.1\REXELPAY
 C:\ASPNETApplications\REXELPAY\REXELPAY.Helpers\obj\Debug\netcoreapp3.1\REXELPAY.Helpers.dll
 C:\ASPNETApplications\REXELPAY\REXELPAY.Helpers\obj\Debug\netcoreapp3.1\REXELPAY.Helpers.pdb
 C:\ASPNETApplications\REXELPAY\REXELPAY.Helpers\obj\Debug\netcoreapp3.1\REXELPAY.Helpers.csprojAssemblyReference.cache
+C:\ASPNETApplications\REXELPAY_BACKEND_DEV_CHALLENGE\REXELPAY.Helpers\bin\Debug\netcoreapp3.1\REXELPAY.Helpers.deps.json
+C:\ASPNETApplications\REXELPAY_BACKEND_DEV_CHALLENGE\REXELPAY.Helpers\bin\Debug\netcoreapp3.1\REXELPAY.Helpers.dll
+C:\ASPNETApplications\REXELPAY_BACKEND_DEV_CHALLENGE\REXELPAY.Helpers\bin\Debug\netcoreapp3.1\REXELPAY.Helpers.pdb
+C:\ASPNETApplications\REXELPAY_BACKEND_DEV_CHALLENGE\REXELPAY.Helpers\obj\Debug\netcoreapp3.1\REXELPAY.Helpers.csprojAssemblyReference.cache
+C:\ASPNETApplications\REXELPAY_BACKEND_DEV_CHALLENGE\REXELPAY.Helpers\obj\Debug\netcoreapp3.1\REXELPAY.Helpers.AssemblyInfoInputs.cache
+C:\ASPNETApplications\REXELPAY_BACKEND_DEV_CHALLENGE\REXELPAY.Helpers\obj\Debug\netcoreapp3.1\REXELPAY.Helpers.AssemblyInfo.cs
+C:\ASPNETApplications\REXELPAY_BACKEND_DEV_CHALLENGE\REXELPAY.Helpers\obj\Debug\netcoreapp3.1\REXELPAY.Helpers.csproj.CoreCompileInputs.cache
+C:\ASPNETApplications\REXELPAY_BACKEND_DEV_CHALLENGE\REXELPAY.Helpers\obj\Debug\netcoreapp3.1\REXELPAY.Helpers.dll
+C:\ASPNETApplications\REXELPAY_BACKEND_DEV_CHALLENGE\REXELPAY.Helpers\obj\Debug\netcoreapp3.1\REXELPAY.Helpers.pdb
