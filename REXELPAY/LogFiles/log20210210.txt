@@ -1,0 +1,49 @@
+2021-02-10 04:30:06.788 +01:00 [INF] User profile is available. Using 'C:\Users\TELNET-SP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-10 04:30:08.886 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-10 04:30:08.886 +01:00 [INF] Hosting environment: Development
+2021-02-10 04:30:08.886 +01:00 [INF] Content root path: C:\ASPNETApplications\REXELPAY\REXELPAY
+2021-02-10 04:30:09.259 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/weatherforecast  
+2021-02-10 04:30:09.467 +01:00 [WRN] Failed to determine the https port for redirect.
+2021-02-10 04:30:09.572 +01:00 [INF] Executing endpoint 'REXELPAY.Controllers.WeatherForecastController.Get (REXELPAY)'
+2021-02-10 04:30:09.726 +01:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[REXELPAY.WeatherForecast] Get() on controller REXELPAY.Controllers.WeatherForecastController (REXELPAY).
+2021-02-10 04:30:09.748 +01:00 [INF] Executing ObjectResult, writing value of type 'REXELPAY.WeatherForecast[]'.
+2021-02-10 04:30:09.873 +01:00 [INF] Executed action REXELPAY.Controllers.WeatherForecastController.Get (REXELPAY) in 133.8325ms
+2021-02-10 04:30:09.875 +01:00 [INF] Executed endpoint 'REXELPAY.Controllers.WeatherForecastController.Get (REXELPAY)'
+2021-02-10 04:30:09.902 +01:00 [INF] Request finished in 645.7478ms 200 application/json; charset=utf-8
+2021-02-10 04:31:13.863 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/index.html  
+2021-02-10 04:31:14.141 +01:00 [INF] Request finished in 278.4565ms 200 text/html;charset=utf-8
+2021-02-10 04:31:14.239 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/swagger-ui.css  
+2021-02-10 04:31:14.245 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/swagger-ui-bundle.js  
+2021-02-10 04:31:14.245 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/swagger-ui-standalone-preset.js  
+2021-02-10 04:31:14.825 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-02-10 04:31:14.826 +01:00 [INF] Request finished in 587.3411ms 200 text/css
+2021-02-10 04:31:14.890 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-02-10 04:31:14.890 +01:00 [INF] Request finished in 645.1556ms 200 application/javascript
+2021-02-10 04:31:15.003 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-02-10 04:31:15.005 +01:00 [INF] Request finished in 759.9686ms 200 application/javascript
+2021-02-10 04:31:15.624 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/favicon-16x16.png  
+2021-02-10 04:31:15.625 +01:00 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2021-02-10 04:31:15.625 +01:00 [INF] Request finished in 1.9288ms 200 image/png
+2021-02-10 04:31:16.034 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/v1/swagger.json  
+2021-02-10 04:31:16.621 +01:00 [INF] Request finished in 587.7465ms 200 application/json;charset=utf-8
+2021-02-10 04:31:27.183 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:2099/api/Multiples/findMultiples application/json 13
+2021-02-10 04:31:27.205 +01:00 [INF] Executing endpoint 'REXELPAY.Controllers.MultiplesController.findMultiplesAsync (REXELPAY)'
+2021-02-10 04:31:27.418 +01:00 [INF] Route matched with {action = "findMultiples", controller = "Multiples"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] findMultiplesAsync(REXELPAY.Models.RequestModels.MultipleRequestModel) on controller REXELPAY.Controllers.MultiplesController (REXELPAY).
+2021-02-10 04:31:27.612 +01:00 [INF] Executing ObjectResult, writing value of type 'REXELPAY.Models.ResponseModels.GenericResponseModel'.
+2021-02-10 04:31:27.648 +01:00 [INF] Executed action REXELPAY.Controllers.MultiplesController.findMultiplesAsync (REXELPAY) in 230.504ms
+2021-02-10 04:31:27.648 +01:00 [INF] Executed endpoint 'REXELPAY.Controllers.MultiplesController.findMultiplesAsync (REXELPAY)'
+2021-02-10 04:31:27.648 +01:00 [INF] Request finished in 465.6665ms 200 application/json; charset=utf-8
+2021-02-10 04:31:37.581 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:2099/api/Multiples/findMultiples application/json 13
+2021-02-10 04:31:37.581 +01:00 [INF] Executing endpoint 'REXELPAY.Controllers.MultiplesController.findMultiplesAsync (REXELPAY)'
+2021-02-10 04:31:37.582 +01:00 [INF] Route matched with {action = "findMultiples", controller = "Multiples"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] findMultiplesAsync(REXELPAY.Models.RequestModels.MultipleRequestModel) on controller REXELPAY.Controllers.MultiplesController (REXELPAY).
+2021-02-10 04:31:37.584 +01:00 [INF] Executing ObjectResult, writing value of type 'REXELPAY.Models.ResponseModels.GenericResponseModel'.
+2021-02-10 04:31:37.585 +01:00 [INF] Executed action REXELPAY.Controllers.MultiplesController.findMultiplesAsync (REXELPAY) in 2.6698ms
+2021-02-10 04:31:37.585 +01:00 [INF] Executed endpoint 'REXELPAY.Controllers.MultiplesController.findMultiplesAsync (REXELPAY)'
+2021-02-10 04:31:37.585 +01:00 [INF] Request finished in 4.7691ms 200 application/json; charset=utf-8
+2021-02-10 04:31:41.410 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:2099/api/Multiples/findMultiples application/json 13
+2021-02-10 04:31:41.411 +01:00 [INF] Executing endpoint 'REXELPAY.Controllers.MultiplesController.findMultiplesAsync (REXELPAY)'
+2021-02-10 04:31:41.412 +01:00 [INF] Route matched with {action = "findMultiples", controller = "Multiples"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] findMultiplesAsync(REXELPAY.Models.RequestModels.MultipleRequestModel) on controller REXELPAY.Controllers.MultiplesController (REXELPAY).
+2021-02-10 04:31:41.414 +01:00 [INF] Executing ObjectResult, writing value of type 'REXELPAY.Models.ResponseModels.GenericResponseModel'.
+2021-02-10 04:31:41.415 +01:00 [INF] Executed action REXELPAY.Controllers.MultiplesController.findMultiplesAsync (REXELPAY) in 2.9189ms
+2021-02-10 04:31:41.415 +01:00 [INF] Executed endpoint 'REXELPAY.Controllers.MultiplesController.findMultiplesAsync (REXELPAY)'
+2021-02-10 04:31:41.415 +01:00 [INF] Request finished in 5.2577ms 200 application/json; charset=utf-8

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "KA7JpfDmUksgcjKEDjffQ7ulMqXTtEyxqiX19Gld9F1iJNSgjarSZ+a/I538gnoOC5PRrGO/KXkyhjtPtLX59Q==",
+  "success": true,
+  "projectFilePath": "C:\\ASPNETApplications\\REXELPAY\\REXELPAY.Helpers\\REXELPAY.Helpers.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\TELNET-SP\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\TELNET-SP\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\TELNET-SP\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
