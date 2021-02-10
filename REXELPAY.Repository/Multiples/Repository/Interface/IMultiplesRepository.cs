@@ -9,6 +9,6 @@ namespace REXELPAY.Repository.Multiples.Repository.Interface
 {
     public interface IMultiplesRepository
     {
-        Task<GenericResponseModel> findMultiplesAsync(MultipleRequestModel obj);
+        Task<GenericResponseModel> checkForMultiplesOfThreeAndFiveAsync(MultipleRequestModel obj);
     }
 }

@@ -16,7 +16,7 @@ namespace REXELPAY.Tests
         {
             //Arrange  
             int number = 15;
-            var expectedValue = EnumUtility.MultipleCodes.Multiple_Of_Three_And_Five;
+            var expectedValue = EnumUtility.MultipleCodes.Multiples_Of_Three_And_Five;
 
             //Act
             Mock<ILogger<CheckerRepository>> mckObj = new Mock<ILogger<CheckerRepository>>();
@@ -32,7 +32,7 @@ namespace REXELPAY.Tests
         {
             //Arrange  
             int number = 25;
-            var expectedValue = EnumUtility.MultipleCodes.Multiple_Of_Five;
+            var expectedValue = EnumUtility.MultipleCodes.Multiples_Of_Five;
 
             //Act
             Mock<ILogger<CheckerRepository>> mckObj = new Mock<ILogger<CheckerRepository>>();
@@ -48,7 +48,7 @@ namespace REXELPAY.Tests
         {
             //Arrange  
             int number = 39;
-            var expectedValue = EnumUtility.MultipleCodes.Multiple_Of_Three;
+            var expectedValue = EnumUtility.MultipleCodes.Multiples_Of_Three;
 
             //Act
             Mock<ILogger<CheckerRepository>> mckObj = new Mock<ILogger<CheckerRepository>>();

@@ -11,7 +11,7 @@ namespace REXELPAY.Repository.Multiples.Repository
 {
     public class MultiplesRepository : IMultiplesRepository
     {
-        public ICheckerRepository _checkerRepository;
+        private readonly ICheckerRepository _checkerRepository;
         private readonly ILogger<MultiplesRepository> _logger;
 
         public MultiplesRepository(ICheckerRepository checkerRepository, ILogger<MultiplesRepository> logger)
@@ -20,29 +20,33 @@ namespace REXELPAY.Repository.Multiples.Repository
             _logger = logger;
         }
 
-        public async Task<GenericResponseModel> findMultiplesAsync(MultipleRequestModel obj)
+        public Task<GenericResponseModel> checkForMultiplesOfThreeAndFiveAsync(MultipleRequestModel obj)
         {
             try
             {
+                //checks the number(if number is a multiple of three, five, three and five or not a multiple of three or five) 
+                //and return the code associated with it to determine the response to the user
                 EnumUtility.MultipleCodes enumObj = _checkerRepository.checkNumberAsync(obj.Number);
 
-                if (enumObj == EnumUtility.MultipleCodes.Multiple_Of_Three_And_Five)
+                //Multiples of both three and five
+                if (enumObj == EnumUtility.MultipleCodes.Multiples_Of_Three_And_Five)
                 {
-                    return new GenericResponseModel { 
-                        Code = (int)System.Net.HttpStatusCode.OK, 
+                    return Task.FromResult(new GenericResponseModel { 
+                        Code = System.Net.HttpStatusCode.OK, 
                         Message = "Success", 
                         Data =  new FizzBuzzResponseModel { 
                             Number = obj.Number,  
                             Word = "FizzBuzz",
                             Remark = "Multiples Of Three and Five"
                         }
-                    };
+                    });
                 }
-                else if (enumObj == EnumUtility.MultipleCodes.Multiple_Of_Three)
+                //Multiples of three 
+                else if (enumObj == EnumUtility.MultipleCodes.Multiples_Of_Three)
                 {
-                    return new GenericResponseModel
+                    return Task.FromResult(new GenericResponseModel
                     {
-                        Code = (int)System.Net.HttpStatusCode.OK,
+                        Code = System.Net.HttpStatusCode.OK,
                         Message = "Success",
                         Data = new FizzBuzzResponseModel
                         {
@@ -50,13 +54,14 @@ namespace REXELPAY.Repository.Multiples.Repository
                             Word = "Fizz",
                             Remark = "Multiples Of Three"
                         }
-                    };
+                    });
                 }
-                else if (enumObj == EnumUtility.MultipleCodes.Multiple_Of_Five)
+                //Multiples of five 
+                else if (enumObj == EnumUtility.MultipleCodes.Multiples_Of_Five)
                 {
-                    return new GenericResponseModel
+                    return Task.FromResult(new GenericResponseModel
                     {
-                        Code = (int)System.Net.HttpStatusCode.OK,
+                        Code = System.Net.HttpStatusCode.OK,
                         Message = "Success",
                         Data = new FizzBuzzResponseModel
                         {
@@ -64,31 +69,31 @@ namespace REXELPAY.Repository.Multiples.Repository
                             Word = "Buzz",
                             Remark = "Multiples Of Five"
                         }
-                    };
+                    });
                 }
-
-                return new GenericResponseModel
+                //Not a Multiples of three or five
+                return Task.FromResult(new GenericResponseModel
                 {
-                    Code = (int)System.Net.HttpStatusCode.OK,
+                    Code = System.Net.HttpStatusCode.OK,
                     Message = "Success",
                     Data = new FizzBuzzResponseModel
                     {
                         Number = obj.Number,
                         Remark = "Not A Multiple Of Three or Five"
                     }
-                };
+                });
             }
             catch (Exception exMessage)
             {
                 //Logs Information
                 var logInfo = new Logger(_logger);
-                logInfo.logError(exMessage);
+                logInfo.logException(exMessage);
 
                 //Returns Generic reposne to users
-                return new GenericResponseModel { 
-                    Code = (int)System.Net.HttpStatusCode.InternalServerError, 
+                return Task.FromResult(new GenericResponseModel { 
+                    Code = System.Net.HttpStatusCode.InternalServerError, 
                     Message = "An Error Occurred" 
-                };
+                });
 
             }
         }

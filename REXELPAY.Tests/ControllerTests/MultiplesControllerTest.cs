@@ -30,7 +30,7 @@ namespace REXELPAY.Tests.ControllerTests
             Mock<IMultiplesRepository> mockObjectChecker = new Mock<IMultiplesRepository>();
 
             MultiplesController controller = new MultiplesController(mockObjectChecker.Object);
-            var actualResult = controller.findMultiplesAsync(requestModel);
+            var actualResult = controller.checkForMultiplesOfThreeAndFiveAsync(requestModel);
 
             //Assert  
             Assert.NotNull(actualResult);
@@ -51,7 +51,7 @@ namespace REXELPAY.Tests.ControllerTests
             MultiplesController controller = new MultiplesController(mockObjectChecker.Object);
 
             // Act
-            var result = await controller.findMultiplesAsync(requestModel);
+            var result = await controller.checkForMultiplesOfThreeAndFiveAsync(requestModel);
 
             // Assert
             Assert.IsType<OkObjectResult>(result);
@@ -66,7 +66,7 @@ namespace REXELPAY.Tests.ControllerTests
             controller.ModelState.AddModelError("error", "Invalid");
 
             // Act
-            var result = await controller.findMultiplesAsync(null);
+            var result = await controller.checkForMultiplesOfThreeAndFiveAsync(null);
 
             // Assert
             Assert.IsType<BadRequestResult>(result);

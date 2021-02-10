@@ -13,7 +13,7 @@ namespace REXELPAY.Helpers.Utilities
             _logger = logger;
         }
 
-        public void logError(Exception exMessage)
+        public void logException(Exception exMessage)
         {
             _logger.LogInformation(string.Format("This Error: {0}, Occurred at {1}; Source: {2}", exMessage.Message, exMessage.StackTrace, exMessage.Source));
         }

@@ -20,15 +20,15 @@ namespace REXELPAY.Controllers
             _multiplesRepository = multiplesRepository;
         }
 
-        [HttpPost("findMultiples")]
-        public async Task<IActionResult> findMultiplesAsync(MultipleRequestModel obj)
+        [HttpPost("checkForMultiplesOfThreeAndFive")]
+        public async Task<IActionResult> checkForMultiplesOfThreeAndFiveAsync(MultipleRequestModel obj)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest();
             }
 
-            var result = await _multiplesRepository.findMultiplesAsync(obj);
+            var result = await _multiplesRepository.checkForMultiplesOfThreeAndFiveAsync(obj);
 
             return Ok(result);
         }

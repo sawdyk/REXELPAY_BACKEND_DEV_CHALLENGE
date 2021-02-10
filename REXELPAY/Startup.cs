@@ -37,6 +37,11 @@ namespace REXELPAY
                 options.JsonSerializerOptions.IgnoreNullValues = true;
             });
 
+            services.AddCors(c =>
+            {
+                c.AddPolicy("AllowOrigin", options => options.AllowAnyOrigin());
+            });
+
             //------------------------------SERVICES-------------------------------------------------------
 
             services.AddTransient<IMultiplesRepository, MultiplesRepository>();
@@ -74,6 +79,13 @@ namespace REXELPAY
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "Multiples Of A Number");
 
             });
+
+            //---------------- CORS --------------------------------
+
+            app.UseCors(builder => builder
+             .AllowAnyOrigin()
+             .AllowAnyMethod()
+             .AllowAnyHeader());
 
             app.UseHttpsRedirection();
 

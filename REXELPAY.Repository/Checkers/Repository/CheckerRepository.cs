@@ -20,19 +20,20 @@ namespace REXELPAY.Repository.Checkers.Repository
         {
             try
             {
+                //defines a default value to be returned
                 EnumUtility.MultipleCodes enumObj =  EnumUtility.MultipleCodes.Not_A_Multiple_Of_Three_Or_Five;
 
                 if (number % 3 == 0 && number % 5 == 0)
                 {
-                    enumObj = EnumUtility.MultipleCodes.Multiple_Of_Three_And_Five;
+                    enumObj = EnumUtility.MultipleCodes.Multiples_Of_Three_And_Five;
                 }
                 else if (number % 3 == 0)
                 {
-                    enumObj = EnumUtility.MultipleCodes.Multiple_Of_Three;
+                    enumObj = EnumUtility.MultipleCodes.Multiples_Of_Three;
                 }
                 else if (number % 5 == 0)
                 {
-                    enumObj = EnumUtility.MultipleCodes.Multiple_Of_Five;
+                    enumObj = EnumUtility.MultipleCodes.Multiples_Of_Five;
                 }
 
                 return enumObj;
@@ -41,7 +42,7 @@ namespace REXELPAY.Repository.Checkers.Repository
             {
                 //Logs Information
                 var logInfo = new Logger(_logger);
-                logInfo.logError(exMessage);
+                logInfo.logException(exMessage);
                 throw exMessage;
             }
         }

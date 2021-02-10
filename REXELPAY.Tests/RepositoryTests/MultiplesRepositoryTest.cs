@@ -28,7 +28,7 @@ namespace REXELPAY.Tests.RepositoryTests
             Mock<ICheckerRepository> mockObjectChecker = new Mock<ICheckerRepository>();
 
             MultiplesRepository repository = new MultiplesRepository(mockObjectChecker.Object, mockObjectLog.Object);
-            var actualResult = repository.findMultiplesAsync(requestModel);
+            var actualResult = repository.checkForMultiplesOfThreeAndFiveAsync(requestModel);
 
             //Assert  
             Assert.NotNull(actualResult);

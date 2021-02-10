@@ -6,7 +6,7 @@ namespace REXELPAY.Models.ResponseModels
 {
     public class GenericResponseModel
     {
-        public int Code { get; set; }
+        public System.Net.HttpStatusCode Code { get; set; }
         public string Message { get; set;}
         public object Data { get; set; }
     }
