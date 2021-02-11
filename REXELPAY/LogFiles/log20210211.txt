@@ -258,3 +258,63 @@
 2021-02-11 03:21:44.908 +01:00 [INF] Executed action REXELPAY.Controllers.MultiplesController.checkForMultiplesOfThreeAndFiveAsync (REXELPAY) in 3.4914ms
 2021-02-11 03:21:44.908 +01:00 [INF] Executed endpoint 'REXELPAY.Controllers.MultiplesController.checkForMultiplesOfThreeAndFiveAsync (REXELPAY)'
 2021-02-11 03:21:44.908 +01:00 [INF] Request finished in 13.5785ms 200 application/json; charset=utf-8
+2021-02-11 08:13:25.071 +01:00 [INF] User profile is available. Using 'C:\Users\TELNET-SP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-11 08:13:27.377 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-11 08:13:27.378 +01:00 [INF] Hosting environment: Development
+2021-02-11 08:13:27.378 +01:00 [INF] Content root path: C:\ASPNETApplications\REXELPAY_NEW\REXELPAY_BACKEND_DEV_CHALLENGE\REXELPAY
+2021-02-11 08:13:27.646 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/index.html  
+2021-02-11 08:13:28.019 +01:00 [INF] Request finished in 384.6417ms 200 text/html;charset=utf-8
+2021-02-11 08:13:30.409 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/v1/swagger.json  
+2021-02-11 08:13:31.048 +01:00 [INF] Request finished in 639.0536ms 200 application/json;charset=utf-8
+2021-02-11 08:13:35.737 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/index.html  
+2021-02-11 08:13:35.785 +01:00 [INF] Request finished in 48.7906ms 200 text/html;charset=utf-8
+2021-02-11 08:13:35.833 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/swagger-ui-bundle.js  
+2021-02-11 08:13:35.836 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/swagger-ui-standalone-preset.js  
+2021-02-11 08:13:36.036 +01:00 [INF] The file /swagger-ui-standalone-preset.js was not modified
+2021-02-11 08:13:36.036 +01:00 [INF] The file /swagger-ui-bundle.js was not modified
+2021-02-11 08:13:36.040 +01:00 [INF] Request finished in 204.5321ms 304 application/javascript
+2021-02-11 08:13:36.040 +01:00 [INF] Request finished in 207.5956ms 304 application/javascript
+2021-02-11 08:13:36.683 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/v1/swagger.json  
+2021-02-11 08:13:36.694 +01:00 [INF] Request finished in 10.9488ms 200 application/json;charset=utf-8
+2021-02-11 08:17:10.319 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:2099/api/User/authenticateUsers application/json 41
+2021-02-11 08:17:10.328 +01:00 [INF] CORS policy execution successful.
+2021-02-11 08:17:10.355 +01:00 [WRN] Failed to determine the https port for redirect.
+2021-02-11 08:17:11.063 +01:00 [INF] Executing endpoint 'REXELPAY.Controllers.UserController.AuthenticateUsersAsync (REXELPAY)'
+2021-02-11 08:17:11.311 +01:00 [INF] Route matched with {action = "AuthenticateUsers", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AuthenticateUsersAsync(REXELPAY.Models.RequestModels.AuthenticateRequestModel) on controller REXELPAY.Controllers.UserController (REXELPAY).
+2021-02-11 08:17:11.607 +01:00 [INF] Executing ObjectResult, writing value of type 'REXELPAY.Models.ResponseModels.UserAuthResponseModel'.
+2021-02-11 08:17:11.676 +01:00 [INF] Executed action REXELPAY.Controllers.UserController.AuthenticateUsersAsync (REXELPAY) in 351.0505ms
+2021-02-11 08:17:11.701 +01:00 [INF] Executed endpoint 'REXELPAY.Controllers.UserController.AuthenticateUsersAsync (REXELPAY)'
+2021-02-11 08:17:11.711 +01:00 [INF] Request finished in 1395.6569ms 200 application/json; charset=utf-8
+2021-02-11 08:17:50.767 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:2099/api/User/authenticateUsers application/json 45
+2021-02-11 08:17:50.768 +01:00 [INF] CORS policy execution successful.
+2021-02-11 08:17:50.789 +01:00 [INF] Executing endpoint 'REXELPAY.Controllers.UserController.AuthenticateUsersAsync (REXELPAY)'
+2021-02-11 08:17:50.791 +01:00 [INF] Route matched with {action = "AuthenticateUsers", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AuthenticateUsersAsync(REXELPAY.Models.RequestModels.AuthenticateRequestModel) on controller REXELPAY.Controllers.UserController (REXELPAY).
+2021-02-11 08:17:51.716 +01:00 [INF] Executing ObjectResult, writing value of type 'REXELPAY.Models.ResponseModels.UserAuthResponseModel'.
+2021-02-11 08:17:51.741 +01:00 [INF] Executed action REXELPAY.Controllers.UserController.AuthenticateUsersAsync (REXELPAY) in 949.7917ms
+2021-02-11 08:17:51.741 +01:00 [INF] Executed endpoint 'REXELPAY.Controllers.UserController.AuthenticateUsersAsync (REXELPAY)'
+2021-02-11 08:17:51.742 +01:00 [INF] Request finished in 981.0506ms 200 application/json; charset=utf-8
+2021-02-11 08:22:16.827 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:2099/api/User/authenticateUsers application/json 45
+2021-02-11 08:22:16.831 +01:00 [INF] CORS policy execution successful.
+2021-02-11 08:22:16.879 +01:00 [INF] Executing endpoint 'REXELPAY.Controllers.UserController.AuthenticateUsersAsync (REXELPAY)'
+2021-02-11 08:22:16.880 +01:00 [INF] Route matched with {action = "AuthenticateUsers", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AuthenticateUsersAsync(REXELPAY.Models.RequestModels.AuthenticateRequestModel) on controller REXELPAY.Controllers.UserController (REXELPAY).
+2021-02-11 08:22:16.897 +01:00 [INF] Executing ObjectResult, writing value of type 'REXELPAY.Models.ResponseModels.UserAuthResponseModel'.
+2021-02-11 08:22:16.900 +01:00 [INF] Executed action REXELPAY.Controllers.UserController.AuthenticateUsersAsync (REXELPAY) in 20.4838ms
+2021-02-11 08:22:16.901 +01:00 [INF] Executed endpoint 'REXELPAY.Controllers.UserController.AuthenticateUsersAsync (REXELPAY)'
+2021-02-11 08:22:16.901 +01:00 [INF] Request finished in 87.6949ms 200 application/json; charset=utf-8
+2021-02-11 08:27:58.954 +01:00 [INF] User profile is available. Using 'C:\Users\TELNET-SP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-11 08:28:01.733 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-11 08:28:01.737 +01:00 [INF] Hosting environment: Development
+2021-02-11 08:28:01.738 +01:00 [INF] Content root path: C:\ASPNETApplications\REXELPAY_NEW\REXELPAY_BACKEND_DEV_CHALLENGE\REXELPAY
+2021-02-11 08:28:01.894 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/index.html  
+2021-02-11 08:28:02.255 +01:00 [INF] Request finished in 370.9386ms 200 text/html;charset=utf-8
+2021-02-11 08:28:03.270 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/v1/swagger.json  
+2021-02-11 08:28:04.046 +01:00 [INF] Request finished in 778.1249ms 200 application/json;charset=utf-8
+2021-02-11 08:28:27.377 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:2099/api/User/authenticateUsers application/json 45
+2021-02-11 08:28:27.387 +01:00 [INF] CORS policy execution successful.
+2021-02-11 08:28:27.392 +01:00 [WRN] Failed to determine the https port for redirect.
+2021-02-11 08:28:28.267 +01:00 [INF] Executing endpoint 'REXELPAY.Controllers.UserController.AuthenticateUsersAsync (REXELPAY)'
+2021-02-11 08:28:28.442 +01:00 [INF] Route matched with {action = "AuthenticateUsers", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AuthenticateUsersAsync(REXELPAY.Models.RequestModels.AuthenticateRequestModel) on controller REXELPAY.Controllers.UserController (REXELPAY).
+2021-02-11 08:28:30.245 +01:00 [INF] Executing ObjectResult, writing value of type 'REXELPAY.Models.ResponseModels.UserAuthResponseModel'.
+2021-02-11 08:28:30.334 +01:00 [INF] Executed action REXELPAY.Controllers.UserController.AuthenticateUsersAsync (REXELPAY) in 1881.2942ms
+2021-02-11 08:28:30.338 +01:00 [INF] Executed endpoint 'REXELPAY.Controllers.UserController.AuthenticateUsersAsync (REXELPAY)'
+2021-02-11 08:28:30.343 +01:00 [INF] Request finished in 2974.306ms 200 application/json; charset=utf-8

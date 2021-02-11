@@ -42,7 +42,14 @@ namespace REXELPAY.Repository.Users.Repository
                     //get the jwt token generated
                     var tokenString = _jwtRepository.GenerateJWTTokenAsync();
 
-                    return new UserAuthResponseModel { Code = System.Net.HttpStatusCode.OK, Message = "Success", Token = tokenString, Data = user };
+                    //The User Information
+                    var userData = new UserDataResponseModel();
+                    userData.Id = user.Id;
+                    userData.FirstName = user.FirstName;
+                    userData.LastName = user.LastName;
+                    userData.Username = user.Username;
+
+                    return new UserAuthResponseModel { Code = System.Net.HttpStatusCode.OK, Message = "Success", Token = tokenString, Data = userData };
                 }
 
                 return new UserAuthResponseModel { Code = System.Net.HttpStatusCode.NotFound, Message = "Invalid Username/Password"};
