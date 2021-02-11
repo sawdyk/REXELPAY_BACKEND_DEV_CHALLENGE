@@ -196,3 +196,65 @@
 2021-02-11 03:18:26.317 +01:00 [INF] Successfully validated the token.
 2021-02-11 03:18:26.317 +01:00 [INF] AuthenticationScheme: Bearer was challenged.
 2021-02-11 03:18:26.318 +01:00 [INF] Request finished in 7.7322ms 401 
+2021-02-11 03:20:13.429 +01:00 [INF] User profile is available. Using 'C:\Users\TELNET-SP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-11 03:20:13.704 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-11 03:20:13.709 +01:00 [INF] Hosting environment: Development
+2021-02-11 03:20:13.709 +01:00 [INF] Content root path: C:\ASPNETApplications\REXELPAY_NEW\REXELPAY_BACKEND_DEV_CHALLENGE\REXELPAY
+2021-02-11 03:20:13.736 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/index.html  
+2021-02-11 03:20:13.806 +01:00 [INF] Request finished in 72.6444ms 200 text/html;charset=utf-8
+2021-02-11 03:20:13.943 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/v1/swagger.json  
+2021-02-11 03:20:14.057 +01:00 [INF] Request finished in 113.3679ms 200 application/json;charset=utf-8
+2021-02-11 03:20:44.843 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/index.html  
+2021-02-11 03:20:44.850 +01:00 [INF] Request finished in 7.1912ms 200 text/html;charset=utf-8
+2021-02-11 03:20:44.867 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/swagger-ui-bundle.js  
+2021-02-11 03:20:44.868 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/swagger-ui-standalone-preset.js  
+2021-02-11 03:20:45.206 +01:00 [INF] The file /swagger-ui-standalone-preset.js was not modified
+2021-02-11 03:20:45.206 +01:00 [INF] The file /swagger-ui-bundle.js was not modified
+2021-02-11 03:20:45.208 +01:00 [INF] Request finished in 340.972ms 304 application/javascript
+2021-02-11 03:20:45.208 +01:00 [INF] Request finished in 339.4931ms 304 application/javascript
+2021-02-11 03:20:45.297 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/v1/swagger.json  
+2021-02-11 03:20:45.301 +01:00 [INF] Request finished in 2.6818ms 200 application/json;charset=utf-8
+2021-02-11 03:20:58.405 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:2099/api/User/authenticateUsers application/json 37
+2021-02-11 03:20:58.411 +01:00 [INF] CORS policy execution successful.
+2021-02-11 03:20:58.414 +01:00 [WRN] Failed to determine the https port for redirect.
+2021-02-11 03:20:59.163 +01:00 [INF] Executing endpoint 'REXELPAY.Controllers.UserController.AuthenticateUsersAsync (REXELPAY)'
+2021-02-11 03:20:59.202 +01:00 [INF] Route matched with {action = "AuthenticateUsers", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AuthenticateUsersAsync(REXELPAY.Models.RequestModels.AuthenticateRequestModel) on controller REXELPAY.Controllers.UserController (REXELPAY).
+2021-02-11 03:20:59.409 +01:00 [INF] Executing ObjectResult, writing value of type 'REXELPAY.Models.ResponseModels.UserAuthResponseModel'.
+2021-02-11 03:20:59.431 +01:00 [INF] Executed action REXELPAY.Controllers.UserController.AuthenticateUsersAsync (REXELPAY) in 222.5817ms
+2021-02-11 03:20:59.433 +01:00 [INF] Executed endpoint 'REXELPAY.Controllers.UserController.AuthenticateUsersAsync (REXELPAY)'
+2021-02-11 03:20:59.435 +01:00 [INF] Request finished in 1032.2606ms 200 application/json; charset=utf-8
+2021-02-11 03:21:16.693 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:2099/api/Multiples/checkForMultiplesOfThreeAndFive application/json 12
+2021-02-11 03:21:16.694 +01:00 [INF] CORS policy execution successful.
+2021-02-11 03:21:16.706 +01:00 [INF] Authorization failed.
+2021-02-11 03:21:16.712 +01:00 [INF] AuthenticationScheme: Bearer was challenged.
+2021-02-11 03:21:16.713 +01:00 [INF] Request finished in 20.0685ms 401 
+2021-02-11 03:21:29.969 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:2099/api/Multiples/checkForMultiplesOfThreeAndFive application/json 12
+2021-02-11 03:21:29.970 +01:00 [INF] CORS policy execution successful.
+2021-02-11 03:21:30.031 +01:00 [INF] Successfully validated the token.
+2021-02-11 03:21:30.033 +01:00 [INF] Authorization was successful.
+2021-02-11 03:21:30.033 +01:00 [INF] Executing endpoint 'REXELPAY.Controllers.MultiplesController.checkForMultiplesOfThreeAndFiveAsync (REXELPAY)'
+2021-02-11 03:21:30.036 +01:00 [INF] Route matched with {action = "checkForMultiplesOfThreeAndFive", controller = "Multiples"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] checkForMultiplesOfThreeAndFiveAsync(REXELPAY.Models.RequestModels.MultipleRequestModel) on controller REXELPAY.Controllers.MultiplesController (REXELPAY).
+2021-02-11 03:21:30.203 +01:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-02-11 03:21:30.219 +01:00 [INF] Executed action REXELPAY.Controllers.MultiplesController.checkForMultiplesOfThreeAndFiveAsync (REXELPAY) in 182.8967ms
+2021-02-11 03:21:30.219 +01:00 [INF] Executed endpoint 'REXELPAY.Controllers.MultiplesController.checkForMultiplesOfThreeAndFiveAsync (REXELPAY)'
+2021-02-11 03:21:30.219 +01:00 [INF] Request finished in 250.7561ms 400 application/problem+json; charset=utf-8
+2021-02-11 03:21:36.332 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:2099/api/Multiples/checkForMultiplesOfThreeAndFive application/json 12
+2021-02-11 03:21:36.333 +01:00 [INF] CORS policy execution successful.
+2021-02-11 03:21:36.335 +01:00 [INF] Successfully validated the token.
+2021-02-11 03:21:36.336 +01:00 [INF] Authorization was successful.
+2021-02-11 03:21:36.336 +01:00 [INF] Executing endpoint 'REXELPAY.Controllers.MultiplesController.checkForMultiplesOfThreeAndFiveAsync (REXELPAY)'
+2021-02-11 03:21:36.337 +01:00 [INF] Route matched with {action = "checkForMultiplesOfThreeAndFive", controller = "Multiples"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] checkForMultiplesOfThreeAndFiveAsync(REXELPAY.Models.RequestModels.MultipleRequestModel) on controller REXELPAY.Controllers.MultiplesController (REXELPAY).
+2021-02-11 03:21:36.343 +01:00 [INF] Executing ObjectResult, writing value of type 'REXELPAY.Models.ResponseModels.GenericResponseModel'.
+2021-02-11 03:21:36.347 +01:00 [INF] Executed action REXELPAY.Controllers.MultiplesController.checkForMultiplesOfThreeAndFiveAsync (REXELPAY) in 9.0287ms
+2021-02-11 03:21:36.347 +01:00 [INF] Executed endpoint 'REXELPAY.Controllers.MultiplesController.checkForMultiplesOfThreeAndFiveAsync (REXELPAY)'
+2021-02-11 03:21:36.347 +01:00 [INF] Request finished in 14.6145ms 200 application/json; charset=utf-8
+2021-02-11 03:21:44.896 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:2099/api/Multiples/checkForMultiplesOfThreeAndFive application/json 13
+2021-02-11 03:21:44.898 +01:00 [INF] CORS policy execution successful.
+2021-02-11 03:21:44.902 +01:00 [INF] Successfully validated the token.
+2021-02-11 03:21:44.904 +01:00 [INF] Authorization was successful.
+2021-02-11 03:21:44.904 +01:00 [INF] Executing endpoint 'REXELPAY.Controllers.MultiplesController.checkForMultiplesOfThreeAndFiveAsync (REXELPAY)'
+2021-02-11 03:21:44.904 +01:00 [INF] Route matched with {action = "checkForMultiplesOfThreeAndFive", controller = "Multiples"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] checkForMultiplesOfThreeAndFiveAsync(REXELPAY.Models.RequestModels.MultipleRequestModel) on controller REXELPAY.Controllers.MultiplesController (REXELPAY).
+2021-02-11 03:21:44.907 +01:00 [INF] Executing ObjectResult, writing value of type 'REXELPAY.Models.ResponseModels.GenericResponseModel'.
+2021-02-11 03:21:44.908 +01:00 [INF] Executed action REXELPAY.Controllers.MultiplesController.checkForMultiplesOfThreeAndFiveAsync (REXELPAY) in 3.4914ms
+2021-02-11 03:21:44.908 +01:00 [INF] Executed endpoint 'REXELPAY.Controllers.MultiplesController.checkForMultiplesOfThreeAndFiveAsync (REXELPAY)'
+2021-02-11 03:21:44.908 +01:00 [INF] Request finished in 13.5785ms 200 application/json; charset=utf-8

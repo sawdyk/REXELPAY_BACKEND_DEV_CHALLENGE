@@ -25,10 +25,10 @@ namespace REXELPAY.Repository.Users.Repository
             _jwtRepository =  jwtRepository; 
         }
 
-        // users hardcoded for simplicity, store in a db with hashed passwords in production applications
+        // Users Credentials hardcoded for simplicity, will be stored in a db with hashed passwords in production applications
         private List<User> _users = new List<User>
         {
-            new User { Id = 1, FirstName = "Test", LastName = "User", Username = "test", Password = "test" }
+            new User { Id = 1, FirstName = "RexelPay", LastName = "Challenge", Username = "Backend", Password = "Developer" }
         };
 
         public async Task<UserAuthResponseModel> AuthenticateUsersAsync(AuthenticateRequestModel obj)
@@ -39,6 +39,7 @@ namespace REXELPAY.Repository.Users.Repository
 
                 if (user != null)
                 {
+                    //get the jwt token generated
                     var tokenString = _jwtRepository.GenerateJWTTokenAsync();
 
                     return new UserAuthResponseModel { Code = System.Net.HttpStatusCode.OK, Message = "Success", Token = tokenString, Data = user };
