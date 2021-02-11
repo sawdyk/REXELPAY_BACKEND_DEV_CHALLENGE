@@ -1,0 +1,198 @@
+2021-02-11 02:29:11.024 +01:00 [INF] User profile is available. Using 'C:\Users\TELNET-SP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-11 02:29:13.314 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-11 02:29:13.315 +01:00 [INF] Hosting environment: Development
+2021-02-11 02:29:13.315 +01:00 [INF] Content root path: C:\ASPNETApplications\REXELPAY_NEW\REXELPAY_BACKEND_DEV_CHALLENGE\REXELPAY
+2021-02-11 02:29:13.399 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/index.html  
+2021-02-11 02:29:13.578 +01:00 [INF] Request finished in 181.6587ms 200 text/html;charset=utf-8
+2021-02-11 02:29:14.006 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/swagger-ui.css  
+2021-02-11 02:29:14.067 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-02-11 02:29:14.071 +01:00 [INF] Request finished in 66.4106ms 200 text/css
+2021-02-11 02:29:14.165 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/swagger-ui-bundle.js  
+2021-02-11 02:29:14.167 +01:00 [INF] The file /swagger-ui-bundle.js was not modified
+2021-02-11 02:29:14.167 +01:00 [INF] Request finished in 2.5682ms 304 application/javascript
+2021-02-11 02:29:14.182 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/swagger-ui-standalone-preset.js  
+2021-02-11 02:29:14.182 +01:00 [INF] The file /swagger-ui-standalone-preset.js was not modified
+2021-02-11 02:29:14.183 +01:00 [INF] Request finished in 0.6871ms 304 application/javascript
+2021-02-11 02:29:14.730 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/favicon-16x16.png  
+2021-02-11 02:29:14.731 +01:00 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2021-02-11 02:29:14.732 +01:00 [INF] Request finished in 2.3666ms 200 image/png
+2021-02-11 02:29:14.842 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/v1/swagger.json  
+2021-02-11 02:29:15.040 +01:00 [INF] Request finished in 197.9984ms 200 application/json;charset=utf-8
+2021-02-11 02:50:33.453 +01:00 [INF] User profile is available. Using 'C:\Users\TELNET-SP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-11 02:50:33.864 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-11 02:50:33.865 +01:00 [INF] Hosting environment: Development
+2021-02-11 02:50:33.865 +01:00 [INF] Content root path: C:\ASPNETApplications\REXELPAY_NEW\REXELPAY_BACKEND_DEV_CHALLENGE\REXELPAY
+2021-02-11 02:50:33.908 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/index.html  
+2021-02-11 02:50:33.989 +01:00 [INF] Request finished in 83.2766ms 200 text/html;charset=utf-8
+2021-02-11 02:50:34.203 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/v1/swagger.json  
+2021-02-11 02:50:34.319 +01:00 [INF] Request finished in 116.0388ms 200 application/json;charset=utf-8
+2021-02-11 02:51:07.382 +01:00 [INF] User profile is available. Using 'C:\Users\TELNET-SP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-11 02:51:07.734 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-11 02:51:07.735 +01:00 [INF] Hosting environment: Development
+2021-02-11 02:51:07.735 +01:00 [INF] Content root path: C:\ASPNETApplications\REXELPAY_NEW\REXELPAY_BACKEND_DEV_CHALLENGE\REXELPAY
+2021-02-11 02:51:07.781 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/index.html  
+2021-02-11 02:51:07.894 +01:00 [INF] Request finished in 114.9541ms 200 text/html;charset=utf-8
+2021-02-11 02:51:08.036 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/v1/swagger.json  
+2021-02-11 02:51:08.122 +01:00 [INF] Request finished in 85.766ms 200 application/json;charset=utf-8
+2021-02-11 02:52:00.340 +01:00 [INF] User profile is available. Using 'C:\Users\TELNET-SP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-11 02:52:01.407 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-11 02:52:01.408 +01:00 [INF] Hosting environment: Development
+2021-02-11 02:52:01.408 +01:00 [INF] Content root path: C:\ASPNETApplications\REXELPAY_NEW\REXELPAY_BACKEND_DEV_CHALLENGE\REXELPAY
+2021-02-11 02:52:01.444 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/index.html  
+2021-02-11 02:52:01.519 +01:00 [INF] Request finished in 76.4937ms 200 text/html;charset=utf-8
+2021-02-11 02:52:01.677 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/v1/swagger.json  
+2021-02-11 02:52:01.754 +01:00 [INF] Request finished in 76.2433ms 200 application/json;charset=utf-8
+2021-02-11 02:52:54.159 +01:00 [INF] User profile is available. Using 'C:\Users\TELNET-SP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-11 02:52:54.876 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-11 02:52:54.882 +01:00 [INF] Hosting environment: Development
+2021-02-11 02:52:54.882 +01:00 [INF] Content root path: C:\ASPNETApplications\REXELPAY_NEW\REXELPAY_BACKEND_DEV_CHALLENGE\REXELPAY
+2021-02-11 02:52:54.913 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/index.html  
+2021-02-11 02:52:55.004 +01:00 [INF] Request finished in 92.7881ms 200 text/html;charset=utf-8
+2021-02-11 02:52:55.142 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/v1/swagger.json  
+2021-02-11 02:52:55.232 +01:00 [INF] Request finished in 89.2652ms 200 application/json;charset=utf-8
+2021-02-11 02:56:53.662 +01:00 [INF] User profile is available. Using 'C:\Users\TELNET-SP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-11 02:56:54.536 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-11 02:56:54.537 +01:00 [INF] Hosting environment: Development
+2021-02-11 02:56:54.538 +01:00 [INF] Content root path: C:\ASPNETApplications\REXELPAY_NEW\REXELPAY_BACKEND_DEV_CHALLENGE\REXELPAY
+2021-02-11 02:56:54.572 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/index.html  
+2021-02-11 02:56:54.716 +01:00 [INF] Request finished in 142.2031ms 200 text/html;charset=utf-8
+2021-02-11 02:56:54.885 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/v1/swagger.json  
+2021-02-11 02:56:54.973 +01:00 [INF] Request finished in 87.6551ms 200 application/json;charset=utf-8
+2021-02-11 03:00:48.885 +01:00 [INF] User profile is available. Using 'C:\Users\TELNET-SP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-11 03:00:49.148 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-11 03:00:49.153 +01:00 [INF] Hosting environment: Development
+2021-02-11 03:00:49.153 +01:00 [INF] Content root path: C:\ASPNETApplications\REXELPAY_NEW\REXELPAY_BACKEND_DEV_CHALLENGE\REXELPAY
+2021-02-11 03:00:49.177 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/index.html  
+2021-02-11 03:00:49.253 +01:00 [INF] Request finished in 77.9821ms 200 text/html;charset=utf-8
+2021-02-11 03:00:49.461 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/v1/swagger.json  
+2021-02-11 03:00:49.545 +01:00 [INF] Request finished in 84.4489ms 200 application/json;charset=utf-8
+2021-02-11 03:06:54.937 +01:00 [INF] User profile is available. Using 'C:\Users\TELNET-SP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-11 03:06:55.233 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-11 03:06:55.234 +01:00 [INF] Hosting environment: Development
+2021-02-11 03:06:55.234 +01:00 [INF] Content root path: C:\ASPNETApplications\REXELPAY_NEW\REXELPAY_BACKEND_DEV_CHALLENGE\REXELPAY
+2021-02-11 03:06:55.296 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/index.html  
+2021-02-11 03:06:55.387 +01:00 [INF] Request finished in 92.8664ms 200 text/html;charset=utf-8
+2021-02-11 03:06:55.568 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/v1/swagger.json  
+2021-02-11 03:06:55.657 +01:00 [INF] Request finished in 89.8453ms 200 application/json;charset=utf-8
+2021-02-11 03:10:08.749 +01:00 [INF] User profile is available. Using 'C:\Users\TELNET-SP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-11 03:10:09.022 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-11 03:10:09.022 +01:00 [INF] Hosting environment: Development
+2021-02-11 03:10:09.022 +01:00 [INF] Content root path: C:\ASPNETApplications\REXELPAY_NEW\REXELPAY_BACKEND_DEV_CHALLENGE\REXELPAY
+2021-02-11 03:10:09.048 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/index.html  
+2021-02-11 03:10:09.117 +01:00 [INF] Request finished in 72.0592ms 200 text/html;charset=utf-8
+2021-02-11 03:10:09.268 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/v1/swagger.json  
+2021-02-11 03:10:09.339 +01:00 [INF] Request finished in 70.0085ms 200 application/json;charset=utf-8
+2021-02-11 03:11:12.160 +01:00 [INF] User profile is available. Using 'C:\Users\TELNET-SP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-11 03:11:12.454 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-11 03:11:12.455 +01:00 [INF] Hosting environment: Development
+2021-02-11 03:11:12.455 +01:00 [INF] Content root path: C:\ASPNETApplications\REXELPAY_NEW\REXELPAY_BACKEND_DEV_CHALLENGE\REXELPAY
+2021-02-11 03:11:12.482 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/index.html  
+2021-02-11 03:11:12.575 +01:00 [INF] Request finished in 95.7974ms 200 text/html;charset=utf-8
+2021-02-11 03:11:12.723 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/v1/swagger.json  
+2021-02-11 03:11:12.801 +01:00 [INF] Request finished in 77.3194ms 200 application/json;charset=utf-8
+2021-02-11 03:11:20.267 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:2099/api/User/authenticateUsers application/json 41
+2021-02-11 03:11:20.354 +01:00 [INF] CORS policy execution successful.
+2021-02-11 03:11:20.379 +01:00 [WRN] Failed to determine the https port for redirect.
+2021-02-11 03:11:20.519 +01:00 [INF] Executing endpoint 'REXELPAY.Controllers.UserController.AuthenticateUsersAsync (REXELPAY)'
+2021-02-11 03:11:20.710 +01:00 [INF] Route matched with {action = "AuthenticateUsers", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AuthenticateUsersAsync(REXELPAY.Models.RequestModels.AuthenticateRequestModel) on controller REXELPAY.Controllers.UserController (REXELPAY).
+2021-02-11 03:11:20.928 +01:00 [INF] Executing ObjectResult, writing value of type 'REXELPAY.Models.ResponseModels.UserAuthResponseModel'.
+2021-02-11 03:11:20.979 +01:00 [INF] Executed action REXELPAY.Controllers.UserController.AuthenticateUsersAsync (REXELPAY) in 265.2217ms
+2021-02-11 03:11:21.028 +01:00 [INF] Executed endpoint 'REXELPAY.Controllers.UserController.AuthenticateUsersAsync (REXELPAY)'
+2021-02-11 03:11:21.030 +01:00 [INF] Request finished in 764.9488ms 200 application/json; charset=utf-8
+2021-02-11 03:12:01.406 +01:00 [INF] User profile is available. Using 'C:\Users\TELNET-SP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-11 03:12:01.745 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-11 03:12:01.750 +01:00 [INF] Hosting environment: Development
+2021-02-11 03:12:01.750 +01:00 [INF] Content root path: C:\ASPNETApplications\REXELPAY_NEW\REXELPAY_BACKEND_DEV_CHALLENGE\REXELPAY
+2021-02-11 03:12:01.778 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/index.html  
+2021-02-11 03:12:01.848 +01:00 [INF] Request finished in 73.7116ms 200 text/html;charset=utf-8
+2021-02-11 03:12:01.985 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/v1/swagger.json  
+2021-02-11 03:12:02.072 +01:00 [INF] Request finished in 87.7885ms 200 application/json;charset=utf-8
+2021-02-11 03:13:04.482 +01:00 [INF] User profile is available. Using 'C:\Users\TELNET-SP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-11 03:13:04.756 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-11 03:13:04.756 +01:00 [INF] Hosting environment: Development
+2021-02-11 03:13:04.756 +01:00 [INF] Content root path: C:\ASPNETApplications\REXELPAY_NEW\REXELPAY_BACKEND_DEV_CHALLENGE\REXELPAY
+2021-02-11 03:13:04.789 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/index.html  
+2021-02-11 03:13:04.856 +01:00 [INF] Request finished in 71.1264ms 200 text/html;charset=utf-8
+2021-02-11 03:13:04.994 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/v1/swagger.json  
+2021-02-11 03:13:05.070 +01:00 [INF] Request finished in 75.992ms 200 application/json;charset=utf-8
+2021-02-11 03:13:37.026 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:2099/api/Multiples/checkForMultiplesOfThreeAndFive application/json 12
+2021-02-11 03:13:37.033 +01:00 [INF] CORS policy execution successful.
+2021-02-11 03:13:37.036 +01:00 [WRN] Failed to determine the https port for redirect.
+2021-02-11 03:13:37.147 +01:00 [INF] Authorization failed.
+2021-02-11 03:13:40.407 +01:00 [INF] AuthenticationScheme: Bearer was challenged.
+2021-02-11 03:13:40.445 +01:00 [INF] Request finished in 3423.9003ms 401 
+2021-02-11 03:13:50.190 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:2099/api/User/authenticateUsers application/json 41
+2021-02-11 03:13:50.191 +01:00 [INF] CORS policy execution successful.
+2021-02-11 03:13:50.586 +01:00 [INF] Executing endpoint 'REXELPAY.Controllers.UserController.AuthenticateUsersAsync (REXELPAY)'
+2021-02-11 03:13:50.631 +01:00 [INF] Route matched with {action = "AuthenticateUsers", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AuthenticateUsersAsync(REXELPAY.Models.RequestModels.AuthenticateRequestModel) on controller REXELPAY.Controllers.UserController (REXELPAY).
+2021-02-11 03:13:50.679 +01:00 [INF] Executing ObjectResult, writing value of type 'REXELPAY.Models.ResponseModels.UserAuthResponseModel'.
+2021-02-11 03:13:50.690 +01:00 [INF] Executed action REXELPAY.Controllers.UserController.AuthenticateUsersAsync (REXELPAY) in 55.6879ms
+2021-02-11 03:13:50.692 +01:00 [INF] Executed endpoint 'REXELPAY.Controllers.UserController.AuthenticateUsersAsync (REXELPAY)'
+2021-02-11 03:13:50.693 +01:00 [INF] Request finished in 503.4799ms 200 application/json; charset=utf-8
+2021-02-11 03:14:12.712 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:2099/api/User/authenticateUsers application/json 37
+2021-02-11 03:14:12.715 +01:00 [INF] CORS policy execution successful.
+2021-02-11 03:14:12.716 +01:00 [INF] Executing endpoint 'REXELPAY.Controllers.UserController.AuthenticateUsersAsync (REXELPAY)'
+2021-02-11 03:14:12.716 +01:00 [INF] Route matched with {action = "AuthenticateUsers", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AuthenticateUsersAsync(REXELPAY.Models.RequestModels.AuthenticateRequestModel) on controller REXELPAY.Controllers.UserController (REXELPAY).
+2021-02-11 03:14:14.681 +01:00 [INF] Executing ObjectResult, writing value of type 'REXELPAY.Models.ResponseModels.UserAuthResponseModel'.
+2021-02-11 03:14:14.704 +01:00 [INF] Executed action REXELPAY.Controllers.UserController.AuthenticateUsersAsync (REXELPAY) in 1987.7894ms
+2021-02-11 03:14:14.704 +01:00 [INF] Executed endpoint 'REXELPAY.Controllers.UserController.AuthenticateUsersAsync (REXELPAY)'
+2021-02-11 03:14:14.705 +01:00 [INF] Request finished in 1992.9591ms 200 application/json; charset=utf-8
+2021-02-11 03:15:33.813 +01:00 [INF] User profile is available. Using 'C:\Users\TELNET-SP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-11 03:15:34.129 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-11 03:15:34.130 +01:00 [INF] Hosting environment: Development
+2021-02-11 03:15:34.130 +01:00 [INF] Content root path: C:\ASPNETApplications\REXELPAY_NEW\REXELPAY_BACKEND_DEV_CHALLENGE\REXELPAY
+2021-02-11 03:15:34.154 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/index.html  
+2021-02-11 03:15:34.219 +01:00 [INF] Request finished in 67.3534ms 200 text/html;charset=utf-8
+2021-02-11 03:15:34.370 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/v1/swagger.json  
+2021-02-11 03:15:34.456 +01:00 [INF] Request finished in 86.888ms 200 application/json;charset=utf-8
+2021-02-11 03:15:48.322 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:2099/api/User/authenticateUsers application/json 37
+2021-02-11 03:15:48.328 +01:00 [INF] CORS policy execution successful.
+2021-02-11 03:15:48.331 +01:00 [WRN] Failed to determine the https port for redirect.
+2021-02-11 03:15:48.369 +01:00 [INF] Executing endpoint 'REXELPAY.Controllers.UserController.AuthenticateUsersAsync (REXELPAY)'
+2021-02-11 03:15:48.421 +01:00 [INF] Route matched with {action = "AuthenticateUsers", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AuthenticateUsersAsync(REXELPAY.Models.RequestModels.AuthenticateRequestModel) on controller REXELPAY.Controllers.UserController (REXELPAY).
+2021-02-11 03:15:48.633 +01:00 [INF] Executing ObjectResult, writing value of type 'REXELPAY.Models.ResponseModels.UserAuthResponseModel'.
+2021-02-11 03:15:48.653 +01:00 [INF] Executed action REXELPAY.Controllers.UserController.AuthenticateUsersAsync (REXELPAY) in 228.3644ms
+2021-02-11 03:15:48.654 +01:00 [INF] Executed endpoint 'REXELPAY.Controllers.UserController.AuthenticateUsersAsync (REXELPAY)'
+2021-02-11 03:15:48.656 +01:00 [INF] Request finished in 336.8084ms 200 application/json; charset=utf-8
+2021-02-11 03:16:27.174 +01:00 [INF] User profile is available. Using 'C:\Users\TELNET-SP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-11 03:16:27.447 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-11 03:16:27.452 +01:00 [INF] Hosting environment: Development
+2021-02-11 03:16:27.452 +01:00 [INF] Content root path: C:\ASPNETApplications\REXELPAY_NEW\REXELPAY_BACKEND_DEV_CHALLENGE\REXELPAY
+2021-02-11 03:16:27.477 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/index.html  
+2021-02-11 03:16:27.543 +01:00 [INF] Request finished in 69.8866ms 200 text/html;charset=utf-8
+2021-02-11 03:16:27.683 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/v1/swagger.json  
+2021-02-11 03:16:27.765 +01:00 [INF] Request finished in 81.8152ms 200 application/json;charset=utf-8
+2021-02-11 03:17:11.896 +01:00 [INF] User profile is available. Using 'C:\Users\TELNET-SP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-02-11 03:17:12.171 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-02-11 03:17:12.176 +01:00 [INF] Hosting environment: Development
+2021-02-11 03:17:12.176 +01:00 [INF] Content root path: C:\ASPNETApplications\REXELPAY_NEW\REXELPAY_BACKEND_DEV_CHALLENGE\REXELPAY
+2021-02-11 03:17:12.201 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/index.html  
+2021-02-11 03:17:12.274 +01:00 [INF] Request finished in 75.8779ms 200 text/html;charset=utf-8
+2021-02-11 03:17:12.414 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:2099/swagger/v1/swagger.json  
+2021-02-11 03:17:12.489 +01:00 [INF] Request finished in 74.2833ms 200 application/json;charset=utf-8
+2021-02-11 03:17:35.823 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:2099/api/Multiples/checkForMultiplesOfThreeAndFive application/json 12
+2021-02-11 03:17:35.829 +01:00 [INF] CORS policy execution successful.
+2021-02-11 03:17:35.832 +01:00 [WRN] Failed to determine the https port for redirect.
+2021-02-11 03:17:35.865 +01:00 [INF] Authorization failed.
+2021-02-11 03:17:35.946 +01:00 [INF] AuthenticationScheme: Bearer was challenged.
+2021-02-11 03:17:35.948 +01:00 [INF] Request finished in 128.5801ms 401 
+2021-02-11 03:17:52.035 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:2099/api/User/authenticateUsers application/json 37
+2021-02-11 03:17:52.036 +01:00 [INF] CORS policy execution successful.
+2021-02-11 03:17:52.042 +01:00 [INF] Executing endpoint 'REXELPAY.Controllers.UserController.AuthenticateUsersAsync (REXELPAY)'
+2021-02-11 03:17:52.094 +01:00 [INF] Route matched with {action = "AuthenticateUsers", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AuthenticateUsersAsync(REXELPAY.Models.RequestModels.AuthenticateRequestModel) on controller REXELPAY.Controllers.UserController (REXELPAY).
+2021-02-11 03:17:52.290 +01:00 [INF] Executing ObjectResult, writing value of type 'REXELPAY.Models.ResponseModels.UserAuthResponseModel'.
+2021-02-11 03:17:52.306 +01:00 [INF] Executed action REXELPAY.Controllers.UserController.AuthenticateUsersAsync (REXELPAY) in 207.9228ms
+2021-02-11 03:17:52.307 +01:00 [INF] Executed endpoint 'REXELPAY.Controllers.UserController.AuthenticateUsersAsync (REXELPAY)'
+2021-02-11 03:17:52.309 +01:00 [INF] Request finished in 274.8225ms 200 application/json; charset=utf-8
+2021-02-11 03:18:14.922 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:2099/api/Multiples/checkForMultiplesOfThreeAndFive application/json 12
+2021-02-11 03:18:14.923 +01:00 [INF] CORS policy execution successful.
+2021-02-11 03:18:14.926 +01:00 [INF] Authorization failed.
+2021-02-11 03:18:15.805 +01:00 [INF] Successfully validated the token.
+2021-02-11 03:18:15.806 +01:00 [INF] AuthenticationScheme: Bearer was challenged.
+2021-02-11 03:18:15.807 +01:00 [INF] Request finished in 892.1617ms 401 
+2021-02-11 03:18:26.311 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:2099/api/Multiples/checkForMultiplesOfThreeAndFive application/json 12
+2021-02-11 03:18:26.312 +01:00 [INF] CORS policy execution successful.
+2021-02-11 03:18:26.314 +01:00 [INF] Authorization failed.
+2021-02-11 03:18:26.317 +01:00 [INF] Successfully validated the token.
+2021-02-11 03:18:26.317 +01:00 [INF] AuthenticationScheme: Bearer was challenged.
+2021-02-11 03:18:26.318 +01:00 [INF] Request finished in 7.7322ms 401 

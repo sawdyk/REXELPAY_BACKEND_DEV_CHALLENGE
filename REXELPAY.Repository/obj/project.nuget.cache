@@ -1,11 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "YjDNST0cKwUueJrkUbu48imrcOvh9sUi5WV5TkRe8MeqGzYt3bkoGvraewJhVcoFqOt7gXCIaEPsaXdYU/pOCw==",
+  "dgSpecHash": "7GVIgy9L95rwOzyL3ch/ipp3dgmKHdbaXrqnQqrXrPKod/hfmaD7a4BRcSqDiaceJh58P6CYz94/AGDzMb/+Dw==",
   "success": true,
-  "projectFilePath": "C:\\ASPNETApplications\\REXELPAY_BACKEND_DEV_CHALLENGE\\REXELPAY.Repository\\REXELPAY.Repository.csproj",
+  "projectFilePath": "C:\\ASPNETApplications\\REXELPAY_NEW\\REXELPAY_BACKEND_DEV_CHALLENGE\\REXELPAY.Repository\\REXELPAY.Repository.csproj",
   "expectedPackageFiles": [
+    "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\TELNET-SP\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\TELNET-SP\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\TELNET-SP\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\TELNET-SP\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.8.0\\microsoft.identitymodel.jsonwebtokens.6.8.0.nupkg.sha512",
+    "C:\\Users\\TELNET-SP\\.nuget\\packages\\microsoft.identitymodel.logging\\6.8.0\\microsoft.identitymodel.logging.6.8.0.nupkg.sha512",
+    "C:\\Users\\TELNET-SP\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.8.0\\microsoft.identitymodel.tokens.6.8.0.nupkg.sha512",
     "C:\\Users\\TELNET-SP\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\TELNET-SP\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.8.0\\system.identitymodel.tokens.jwt.6.8.0.nupkg.sha512",
+    "C:\\Users\\TELNET-SP\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
     "C:\\Users\\TELNET-SP\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
     "C:\\Users\\TELNET-SP\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
     "C:\\Users\\TELNET-SP\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512"

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using REXELPAY.Models.RequestModels;
 using REXELPAY.Repository.Multiples.Repository.Interface;
@@ -21,6 +22,7 @@ namespace REXELPAY.Controllers
         }
 
         [HttpPost("checkForMultiplesOfThreeAndFive")]
+        [Authorize]
         public async Task<IActionResult> checkForMultiplesOfThreeAndFiveAsync(MultipleRequestModel obj)
         {
             if (!ModelState.IsValid)

@@ -16,6 +16,13 @@ using REXELPAY.Repository.Multiples.Repository.Interface;
 using REXELPAY.Repository.Multiples.Repository;
 using REXELPAY.Repository.Checkers.Repository.Interface;
 using REXELPAY.Repository.Checkers.Repository;
+using REXELPAY.Repository.Users.Repository.Interface;
+using REXELPAY.Repository.Users.Repository;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using REXELPAY.Repository.Jwt.Repository.Interface;
+using REXELPAY.Repository.Jwt.Repository;
 
 namespace REXELPAY
 {
@@ -46,6 +53,8 @@ namespace REXELPAY
 
             services.AddTransient<IMultiplesRepository, MultiplesRepository>();
             services.AddTransient<ICheckerRepository, CheckerRepository>();
+            services.AddTransient<IUsersRepository, UsersRepository>();
+            services.AddTransient<IJwtRepository, JwtRepository>();
 
 
             //------------------------------SWAGGER--------------------------------------------------------
@@ -60,7 +69,46 @@ namespace REXELPAY
                     Title = swaggerOpt.Title,
                     Version = swaggerOpt.Version
                 });
+
+                var securityScheme = new OpenApiSecurityScheme
+                {
+                    Name = "JWT Authentication",
+                    Description = "Enter JWT Bearer Token Only",
+                    In = ParameterLocation.Header,
+                    Type = SecuritySchemeType.Http,
+                    Scheme = "bearer",
+                    BearerFormat = "JWT",
+                    Reference = new OpenApiReference
+                    {
+                        Id = JwtBearerDefaults.AuthenticationScheme,
+                        Type = ReferenceType.SecurityScheme
+                    }
+                };
+                c.AddSecurityDefinition(securityScheme.Reference.Id, securityScheme);
+                c.AddSecurityRequirement(new OpenApiSecurityRequirement
+                {
+                    {securityScheme, new string[]{ }}
+                });
             });
+
+            //-------------------------------JWT AUTHENTICATION AND AUTHORISATION--------------------------------------------------
+
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+              .AddJwtBearer(options =>
+              {
+                  options.RequireHttpsMetadata = false;
+                  options.SaveToken = true;
+                  options.TokenValidationParameters = new TokenValidationParameters
+                  {
+                      ValidateIssuer = true,
+                      ValidateAudience = true,
+                      ValidateLifetime = true,
+                      ValidIssuer = Configuration["Jwt:Issuer"],
+                      ValidAudience = Configuration["Jwt:Audience"],
+                      IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(Configuration["Jwt:SecretKey"])),
+                      ClockSkew = TimeSpan.Zero
+                  };
+              });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -76,7 +124,7 @@ namespace REXELPAY
             // specifying the Swagger JSON endpoint.  
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Multiples Of A Number");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Multiples");
 
             });
 
@@ -90,6 +138,8 @@ namespace REXELPAY
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseAuthentication();
 
             app.UseAuthorization();
 

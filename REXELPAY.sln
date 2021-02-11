@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "REXELPAY.Repository", "REXE
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "REXELPAY.Models", "REXELPAY.Models\REXELPAY.Models.csproj", "{F042EAFF-754A-4724-B2B3-37B0DB50C2E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REXELPAY.Tests", "REXELPAY.Tests\REXELPAY.Tests.csproj", "{485369F8-ADDF-4336-87CC-1B98B11AB039}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "REXELPAY.Tests", "REXELPAY.Tests\REXELPAY.Tests.csproj", "{485369F8-ADDF-4336-87CC-1B98B11AB039}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REXELPAY.DataAccess", "REXELPAY.DataAccess\REXELPAY.DataAccess.csproj", "{3795B9FE-E2D2-4562-A49C-7BA5A6991392}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{485369F8-ADDF-4336-87CC-1B98B11AB039}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{485369F8-ADDF-4336-87CC-1B98B11AB039}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{485369F8-ADDF-4336-87CC-1B98B11AB039}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3795B9FE-E2D2-4562-A49C-7BA5A6991392}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3795B9FE-E2D2-4562-A49C-7BA5A6991392}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3795B9FE-E2D2-4562-A49C-7BA5A6991392}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3795B9FE-E2D2-4562-A49C-7BA5A6991392}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
